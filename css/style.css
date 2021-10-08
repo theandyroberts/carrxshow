@@ -4933,6 +4933,7 @@ video, object {
 	width: 100%;
 	min-height: 100%;
 	background: rgba(20, 20, 20, .5);
+	background-image:url('../images/car-rx-orange-paint.gif');
 }
 .de-video-overlay.dotted {
 	background: url(../images_02/dotted.png);
