@@ -2073,7 +2073,7 @@ a.btn-link{
 	font-weight:200;
 	margin-bottom:10px;
 }
-. span {
+.span {
 	color: #333;
 	margin: 15px 0 15px 0;
 	font-size: 15px;
@@ -4400,10 +4400,6 @@ a.btn-left, a.btn-right {
 .timeline .tl-block .tl-message:after{ display: block; content: ' '; clear:both; }
 .timeline .tl-block .tl-message .tl-icon{float: left; left:100px; }
 .timeline .tl-block .tl-message .tl-main{ float: left; }
-.timeline .tl-block .tl-message .tl-main .tl-title {}
-.timeline .tl-block .tl-message .tl-main .tl-content{}
-.timeline .tl-block .tl-message .tl-main .tl-content label{ font-weight: bold; display: inline-block; width: 80px;}
-.timeline .tl-block .tl-message .tl-main .tl-content span{}
 .timeline .tl-block .tl-message h3{text-transform:none;}
 .timeline .tl-block .tl-time h4{margin:0 0 10px 0;}
 .timeline .tl-block .tl-main h4{margin-top:-24px;}
@@ -4933,7 +4929,7 @@ video, object {
 	width: 100%;
 	min-height: 100%;
 	background: rgba(20, 20, 20, .5);
-	background-image:url('../images/car-rx-orange-paint.gif');
+	background-image:url('../images/orange-paint-720.gif');
 }
 .de-video-overlay.dotted {
 	background: url(../images_02/dotted.png);
@@ -4994,62 +4990,6 @@ video, object {
 	width: 100%;
 }
 
-/* ================================================== */
-
-
-/* 404146 to action */
-
-
-/* ================================================== */
-
-.404146-to-action-box {
-	background: #f6f6f6;
-	border: solid 1px #ddd;
-	background: rgb(255, 255, 255);
-	/* Old browsers */
-	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 100%);
-	/* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(242, 242, 242, 1)));
-	/* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 100%);
-	/* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 100%);
-	/* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 100%);
-	/* IE10+ */
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(242, 242, 242, 1) 100%);
-	/* W3C */
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0);
-	/* IE6-9 */
-}
-.404146-to-action-box {
-	background: #27282B;
-	border: solid 1px #202220;
-}
-.404146-to-action-box .inner {
-	padding: 20px 20px 20px 20px;
-}
-.404146-to-action-box .text {
-	margin-right: 20px;
-	float: left;
-}
-.404146-to-action-box .act {
-	float: right;
-}
-.404146-to-action-box h3 {
-	margin: 0;
-	margin-top: 10px;
-}
-.404146-to-action-box .btn {
-	color: #eceff3;
-}
-.404146-to-action-box {
-	background: #202220;
-	color: #eceff3;
-}
-.404146-to-action-boxh3 {
-	color: #eceff3;
-}
 
 /* ================================================== */
 
@@ -7876,7 +7816,7 @@ a, img {
 	header.header-mobile-sticky {
 		position: fixed;
 	}
-	#subheader, {
+	#subheader {
 		padding: 0 0 0 0;
 	}
 	.de-navbar-left #subheader {
