@@ -189,6 +189,7 @@
                             <h5>About The CAR RX Show</h5>
                             <div class="tiny-border"><span></span></div>
                             <p>The CAR RX Show is an independent production to give auto purchase advice and showcase cars, auto products, and owners. The CAR RX Show is made for distribution on YouTube, Instagram, and other social and streaming services.</p>
+                            <p>Reach out directly: <a href="mailto:info@carrx.show">info@carrx.show</p>
                         </div>
                     </div>
 
