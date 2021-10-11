@@ -15,19 +15,23 @@ $headers .= "Content-type: text/html; charset=iso-8859-1";
 $headers .= "From: ".$name.'<'.$email.'>'."\r\n"; // Sender's E-mail
 $headers .= "Return-Path:"."From:" . $email;
 
-$message .= 'Name : ' . $name . "\n";
-$message .= 'Email : ' . $email . "\n";
-$message .= 'Phone : ' . $phone . "\n";
-$message .= 'Message : ' . $msg;
+$message .= 'Name : ' . $name . " | ";
+$message .= 'Email : ' . $email . " | ";
+$message .= 'Phone : ' . $phone . " | ";
+$message .= 'Message : ' . $msg . " |\r\n";
 
-if (@mail($to, $subject, $message, $email_from))
+$data = $_REQUEST['email'] . $_REQUEST['message'] . $_REQUEST['phone'] . $_REQUEST['name'];
+$fp = fopen('/var/www/html/data.txt', 'a');
+if (fwrite($fp, $message))
 {
-	// Transfer the value 'sent' to ajax function for showing success message.
-	echo 'sent';
+    fclose($fp);
+    // Transfer the value 'sent' to ajax function for showing success message.
+    echo 'sent';
 }
+
 else
 {
-	// Transfer the value 'failed' to ajax function for showing error message.
-	echo 'failed';
+    // Transfer the value 'failed' to ajax function for showing error message.
+    echo 'failed';
 }
 ?>
